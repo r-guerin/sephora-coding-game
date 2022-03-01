@@ -25,8 +25,8 @@ The applicant should implement the code responding to the need express by each q
 
 3. Implement a fetchOrdersList method (src/orders/orders.service.ts), that retrieve in the orders list all orders corresponding to a given customer id
 
-4. Implement a method that return the name of the custmer with the most expensive order
+4. Implement a method that return the name of the customer with the most expensive order
 
-5. Implement a method that display the number of orders for each users
+5. Implement a method that display for each users, their name and corresponding number of orders
 
 6. Implement a method that, given a user ID, return the name of its most buyed SKU
