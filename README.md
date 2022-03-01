@@ -15,18 +15,18 @@ The applicant should implement the code responding to the need express by each q
 
 ## Questions
 
-1. Implement a method that retrieve all active users
+1. Implement a method that retrieve all active customers
 
-2. Implement a method that retrieve all users and display their full name, with first letter of first name to upper case, the rest in lower case and the last name to upper case. Examples:
+2. Implement a method that retrieve all customers and display their full name, with first letter of first name to upper case, the rest in lower case and the last name to upper case. Examples:
 
 - REMI GUERIN => Remi GUERIN
 - EMManuel CapeLLE => Emmanuel CAPELLE
 - SOFYANE messoussi => Sofyane MESSOUSSI
 
-3. Implement a fetchOrdersList method (src/orders/orders.service.ts), that retrieve in the orders list all orders corresponding to a given customer id
+3. Implement a fetchCustomerOrders use case (src/orders/use-cases/fetch-customer-orders.ts), that retrieve in the orders list all orders corresponding to a given customer id
 
 4. Implement a method that return the name of the customer with the most expensive order
 
-5. Implement a method that display for each users, their name and corresponding number of orders
+5. Implement a method that display for each customers, their name and corresponding number of orders
 
-6. Implement a method that, given a user ID, return the name of its most buyed SKU
+6. Implement a method that, given a customer ID, return the name of its most buyed SKU

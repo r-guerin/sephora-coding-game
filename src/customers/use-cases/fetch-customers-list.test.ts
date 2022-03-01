@@ -1,5 +1,5 @@
-import { customersList } from './customers-list';
-import { fetchCustomersList } from './customers.service';
+import { customersList } from '../customers-list';
+import { fetchCustomersList } from './fetch-customers-list';
 
 describe('fetchCustomersList', () => {
   test('Should return the customers list', async () => {
