@@ -23,7 +23,7 @@ The applicant should implement the code responding to the need express by each q
 - EMManuel CapeLLE => Emmanuel CAPELLE
 - SOFYANE messoussi => Sofyane MESSOUSSI
 
-3. Implement a fetchOrdersList method (src/orders/orders.service.ts), that retrieve in the orders list all orders corresponding to a given customer id
+3. Implement a fetchCustomerOrders use case (src/orders/use-cases/fetch-customer-orders.ts), that retrieve in the orders list all orders corresponding to a given customer id
 
 4. Implement a method that return the name of the customer with the most expensive order
 
