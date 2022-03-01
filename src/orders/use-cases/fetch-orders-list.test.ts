@@ -1,5 +1,5 @@
-import { ordersList } from './orders-list';
-import { fetchOrdersList } from './orders.service';
+import { ordersList } from '../orders-list';
+import { fetchOrdersList } from './fetch-orders-list';
 
 describe('fetchOrdersList', () => {
   test('Should return the orders list', async () => {
