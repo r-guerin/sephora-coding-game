@@ -92,3 +92,64 @@ export const ordersList: Order[] = [
     ],
   },
 ];
+
+export const customerOrdersList: Order[] = [
+  {
+    id: 'ORDER_0002',
+    customerId: 'CUST_0003',
+    skus: [
+      {
+        id: 'SKU_0001',
+        name: 'Super famous perfume',
+        quantity: 5,
+        unitPrice: 12,
+      },
+      {
+        id: 'SKU_0003',
+        name: 'Famous cream',
+        quantity: 1,
+        unitPrice: 60,
+      },
+    ],
+  },
+  {
+    id: 'ORDER_0003',
+    customerId: 'CUST_0003',
+    skus: [
+      {
+        id: 'SKU_0002',
+        name: 'Super famous make up',
+        quantity: 8,
+        unitPrice: 44.5,
+      },
+      {
+        id: 'SKU_0003',
+        name: 'Famous cream',
+        quantity: 1,
+        unitPrice: 60,
+      },
+    ],
+  },
+  {
+    id: 'ORDER_0004',
+    customerId: 'CUST_0003',
+    skus: [
+      {
+        id: 'SKU_0003',
+        name: 'Famous cream',
+        quantity: 1,
+        unitPrice: 60,
+      },
+    ],
+  },
+];
+
+export const customerNameWithMostExpensiveOrder: string = 'Ada LOVELACE';
+
+export const customersOrdersCount = [
+  ['Ada LOVELACE', 3],
+  ['John SMITH', 1],
+  ['Richard STALLMAN', 1],
+];
+
+export const mostBuyedSkuByCustomerId: string = 'Super famous make up';

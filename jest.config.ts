@@ -18,6 +18,8 @@ const config: Config.InitialOptions = {
   transform: {
     '\\.[jt]sx?$': 'babel-jest',
   },
+  setupFilesAfterEnv: ['<rootDir>/setup-jest.js'],
+  extensionsToTreatAsEsm: ['.ts'], // https://jestjs.io/docs/ecmascript-modules
 };
 
 export default config;
