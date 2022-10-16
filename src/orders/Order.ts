@@ -10,3 +10,5 @@ export type Order = {
   customerId: string;
   skus: Sku[];
 };
+
+export type OrderWithAmount = Order & { amount: number };

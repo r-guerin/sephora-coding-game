@@ -143,3 +143,5 @@ export const customerOrdersList: Order[] = [
     ],
   },
 ];
+
+export const customerNameWithMostExpensiveOrder: string = "Ada LOVELACE";

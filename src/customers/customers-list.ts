@@ -45,7 +45,7 @@ export const activeCustomersList: Customer[] = [
     firstName: 'ADA',
     lastName: 'Lovelace',
     status: 'active',
-  }
+  },
 ];
 
 export const customersWithFormattedNameList: Customer[] = [
@@ -74,3 +74,10 @@ export const customersWithFormattedNameList: Customer[] = [
     status: 'inactive',
   },
 ];
+
+export const customerById: Customer = {
+  id: 'CUST_0001',
+  firstName: 'John',
+  lastName: 'SMITH',
+  status: 'active',
+};
