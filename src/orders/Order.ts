@@ -12,3 +12,5 @@ export type Order = {
 };
 
 export type OrderWithAmount = Order & { amount: number };
+
+export type OrderCountByCustomerName = [string, number][]

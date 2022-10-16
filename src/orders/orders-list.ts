@@ -144,4 +144,10 @@ export const customerOrdersList: Order[] = [
   },
 ];
 
-export const customerNameWithMostExpensiveOrder: string = "Ada LOVELACE";
+export const customerNameWithMostExpensiveOrder: string = 'Ada LOVELACE';
+
+export const customersOrdersCount = [
+  ['Ada LOVELACE', 3],
+  ['John SMITH', 1],
+  ['Richard STALLMAN', 1],
+];
