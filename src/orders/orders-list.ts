@@ -151,3 +151,5 @@ export const customersOrdersCount = [
   ['John SMITH', 1],
   ['Richard STALLMAN', 1],
 ];
+
+export const mostBuyedSkuByCustomerId: string = 'Super famous make up';
